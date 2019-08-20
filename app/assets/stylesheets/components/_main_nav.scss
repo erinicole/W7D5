@@ -1,0 +1,111 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  font-family: sans-serif;
+  align-items: center;
+
+
+}
+
+.left-nav > ul,
+.right-nav > ul {
+ display: flex;
+ flex-direction: row;
+
+ align-items: center;
+}
+
+.left-nav > ul > li {
+  margin-right: 10px;
+  font-size: 10px;
+  justify-content: space-between;
+
+}
+
+.right-nav > ul > li {
+  margin-left: 5px;
+  font-size: 20px; 
+  align-items: center;
+  
+}
+
+.right-nav > ul > li > button {
+  font-size: 10px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: justify
+}
+
+#subscribe-now {
+  background-color: rgb(100, 133, 160);
+}
+
+#sign-in {
+  background-color: rgb(100, 133, 160);
+}
+
+
+
+.right-nav > ul > li:last-of-type {
+
+
+}
+.right-nav > ul > li:last-of-type(2) {
+
+}
+#subscribe-now:hover {
+  background-color: rgb(53, 99, 140)
+}
+
+#sign-in:hover {
+  background-color: rgb(53, 99, 140)
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color:  rgb(247, 247, 245);
+}
+
+.left-nav span {
+  justify-content: space-between;
+}
+
+
+.right-nav ul li i {
+background-color:  rgb(247, 247, 245);
+}
+
+#search-modal-btn {
+  padding: 10px;
+}
+
+
+#gear-dropdown-btn {
+  padding: 10px;
+  position: relative;
+
+}
+
+
+#icon {
+  margin-right: 12px;
+}
+
+
+@media all and (max-width: 1000px) {  
+
+  .main-nav button{ 
+    display: none;
+  }
+  .main-nav {
+    
+		width: 100%;
+		justify-content: space-between;
+    display: flex;
+    padding-bottom: 10px 
+  }
+
+}
